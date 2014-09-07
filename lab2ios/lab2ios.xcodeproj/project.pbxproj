@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB17C3319BC1C4D0052FC26 /* YoCatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB17C3219BC1C4D0052FC26 /* YoCatchModel.m */; };
+		BFB17C3919BC41AE0052FC26 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB17C3819BC41AE0052FC26 /* HistoryViewController.m */; };
 		BFC2B1B519BAA8D3006340B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC2B1B419BAA8D3006340B7 /* Foundation.framework */; };
 		BFC2B1B719BAA8D3006340B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC2B1B619BAA8D3006340B7 /* CoreGraphics.framework */; };
 		BFC2B1B919BAA8D3006340B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC2B1B819BAA8D3006340B7 /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFB17C3119BC1C4D0052FC26 /* YoCatchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoCatchModel.h; sourceTree = "<group>"; };
+		BFB17C3219BC1C4D0052FC26 /* YoCatchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoCatchModel.m; sourceTree = "<group>"; };
+		BFB17C3719BC41AE0052FC26 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		BFB17C3819BC41AE0052FC26 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		BFC2B1B119BAA8D3006340B7 /* lab2ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab2ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC2B1B419BAA8D3006340B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFC2B1B619BAA8D3006340B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,11 +121,15 @@
 		BFC2B1BA19BAA8D3006340B7 /* lab2ios */ = {
 			isa = PBXGroup;
 			children = (
+				BFB17C3119BC1C4D0052FC26 /* YoCatchModel.h */,
+				BFB17C3219BC1C4D0052FC26 /* YoCatchModel.m */,
 				BFC2B1EF19BAACD9006340B7 /* UIColor+RandomUIColor.h */,
 				BFC2B1F019BAACD9006340B7 /* UIColor+RandomUIColor.m */,
 				BFC2B1C619BAA8D3006340B7 /* Main.storyboard */,
 				BFC2B1C919BAA8D3006340B7 /* ViewController.h */,
 				BFC2B1CA19BAA8D3006340B7 /* ViewController.m */,
+				BFB17C3719BC41AE0052FC26 /* HistoryViewController.h */,
+				BFB17C3819BC41AE0052FC26 /* HistoryViewController.m */,
 				BFC2B1CC19BAA8D3006340B7 /* Images.xcassets */,
 				BFC2B1BB19BAA8D3006340B7 /* Supporting Files */,
 			);
@@ -255,9 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC2B1F119BAACD9006340B7 /* UIColor+RandomUIColor.m in Sources */,
+				BFB17C3319BC1C4D0052FC26 /* YoCatchModel.m in Sources */,
 				BFC2B1CB19BAA8D3006340B7 /* ViewController.m in Sources */,
 				BFC2B1C519BAA8D3006340B7 /* AppDelegate.m in Sources */,
 				BFC2B1C119BAA8D3006340B7 /* main.m in Sources */,
+				BFB17C3919BC41AE0052FC26 /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +474,7 @@
 				BFC2B1E519BAA8D3006340B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFC2B1E619BAA8D3006340B7 /* Build configuration list for PBXNativeTarget "lab2iosTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +483,7 @@
 				BFC2B1E819BAA8D3006340B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
